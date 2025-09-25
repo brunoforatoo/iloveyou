@@ -1,9 +1,9 @@
 // Lista de fotos com legendas
 const photos = [
-  {src: "./foto1.jpg", caption: "Cada momento com você é único 💕"},
-  {src: "./foto4.jpg", caption: "No teu abraço encontro o meu lar ❤️"},
-  {src: "./foto2.jpg", caption: "Minha melhor escolha de todas 💜"},
-  {src: "./foto4.jpg", caption: "Nosso amor é infinito, como as estrelas ✨"}
+  {src: "foto1.jpg", caption: "Cada momento com você é único 💕"},
+  {src: "foto4.jpg", caption: "No teu abraço encontro o meu lar ❤️"},
+  {src: "foto2.jpg", caption: "Minha melhor escolha de todas 💜"},
+  {src: "foto4.jpg", caption: "Nosso amor é infinito, como as estrelas ✨"}
 ];
 
 // Pega a div da galeria
@@ -26,4 +26,5 @@ photos.forEach(photo => {
   card.appendChild(caption);
   gallery.appendChild(card);
 });
+
 
